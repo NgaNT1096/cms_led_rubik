@@ -1,33 +1,5 @@
 
 # TailAdmin Inertia
-
-![TailAdmin](public/img/demo/tailadmin_v2.jpg)
-
-It's a dashboard theme/UI-Starter Kit with **Laravel 12**, **TailwindCSS 3**, **Inertia.js** and **Vue 3 (JetStream)**.
-
-> :wave: If you are looking for the Vue2 version, download [TailAdmin v1](https://github.com/sinan-aydogan/tailadmin-laravel/releases/tag/v.1.0.0) :wave:
-
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Tailwind_CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/sinanaydogan)
-[![BuyMeACoffee](public/img/demo/bmc-button.png)](https://www.buymeacoffee.com/sinanaydogan)
-[![Discord](public/img/demo/discord_2.svg)](https://discord.gg/TnjA2GqYmw)
-
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sinan-aydogan/tailadmin-laravel@github)](https://gitads.dev/v1/ad-track?source=sinan-aydogan/tailadmin-laravel@github)
-
-
-Requirements
-------
-1. PHP min v.8.3
-2. DB server (Recommended:MySQL)
-3. [composer min v.2](https://getcomposer.org/)
-4. [nodejs min v.20](https://nodejs.org/)
-5. Please check other requirements of  [Laravel](https://laravel.com/) and [Inertia](https://inertiajs.com/)
-
-
 Setup Directions
 ------
 
@@ -132,33 +104,3 @@ If you need to help more than this documentation:
 > :rocket:  We are going to make the big updates about app because this theme is using in our projects therefore the updates will be continuous
 
 ---
-
-### Partners and Sponsors
-
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sinan-aydogan/tailadmin-laravel@github)](https://gitads.dev/v1/ad-track?source=sinan-aydogan/tailadmin-laravel@github)
-
-> :metal: If you want to support us, you can send a mail to us via [admin@tailadmin.dev](mailto:admin@tailadmin.dev)
-
----
-
-### Major External Sources
-
-- [Tailwind](https://tailwindcss.com/)
-- [Vue](https://vuejs.org/)
-- [Fontawesome](https://fontawesome.com/)
-
-### Minor External Sources
-
-Please see package.json
-
----
-License
-------
-The TailAdmin is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/sinanaydogan)
-[![BuyMeACoffee](public/img/demo/bmc-button.png)](https://www.buymeacoffee.com/sinanaydogan)
-
-<!-- GitAds-Verify: XU4WES5HAT2HRC3LCB7K9L4CQZ4CIAN8 -->
