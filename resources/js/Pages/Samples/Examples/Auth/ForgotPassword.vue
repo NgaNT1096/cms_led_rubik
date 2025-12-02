@@ -7,7 +7,7 @@
             <Link href="/">
                 <div class="flex flex-col justify-center items-center w-full">
                     <t-logo class="w-12 h-12"/>
-                    <span class="text-3xl">TailAdmin</span>
+                    <span class="text-3xl">CMS LED RUBIK</span>
                 </div>
             </Link>
         </template>

@@ -1,6 +1,6 @@
 /*Default Settings*/
 const appConf = {
-    appName: 'TailAdmin',
+    appName: 'CMS LED',
     catchPhrase: 'Peace at Home, Peace in the World',
     logo: {
       dark: '/img/dark-logo.svg',
@@ -97,21 +97,7 @@ const topBarConf = {
 
 const footerConf = {
     visible: true,
-    content: "<a\n" +
-        "              class=\"text-blue-600 hover:underline\"\n" +
-        "              href=\"https://tailadmin.dev/\"\n" +
-        "              target=\"_blank\"\n" +
-        "            >\n" +
-        "              TailAdmin v2\n" +
-        "              </a>\n" +
-        "            <span>by</span>\n" +
-        "            <a\n" +
-        "              class=\"text-teal-400 hover:underline\"\n" +
-        "              href=\"https://github.com/sinan-aydogan\"\n" +
-        "              target=\"_blank\"\n" +
-        "            >\n" +
-        "              Sinan AYDOĞAN\n" +
-        "            </a>"
+    content: ""
 };
 
 /*Module Settings*/

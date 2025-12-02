@@ -84,7 +84,7 @@ const messages = {
         },
         title: {
             page: {
-                welcomeMessage: "Welcome to TailAdmin"
+                welcomeMessage: "Welcome to CMS LED RUBIK"
             }
         },
         message: {},
@@ -185,7 +185,7 @@ const messages = {
         },
         title: {
             page: {
-                welcomeMessage: "TailAdmin'e Hoşgeldiniz"
+                welcomeMessage: "CMS LED RUBIK"
             }
         },
         message: {},

@@ -44,8 +44,6 @@ Route::middleware([
             'phpVersion' => PHP_VERSION,
         ]);
     })->name('/');
-
-
     /*They are the required pages for the system, don't delete it*/
     Route::prefix('settings')->group(function () {
 

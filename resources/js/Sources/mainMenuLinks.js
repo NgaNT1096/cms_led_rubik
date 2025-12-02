@@ -14,15 +14,6 @@ export default function ({roles,permissions}) {
     const mainMenuLinks = computed(()=>{
         return [
             {
-                id: "externalGitHubRepo",
-                label:  tm("externalGitHubRepo"),
-                icon: "star",
-                link: "https://github.com/sinan-aydogan/anemon-laravel",
-                type: "simple-link",
-                target: "_blank",
-                visibleFor: roles.includes('Super Admin'),
-            },
-            {
                 id: "authPages",
                 label:  tm("authPages"),
                 icon: "tv",
@@ -30,40 +21,54 @@ export default function ({roles,permissions}) {
                 type: "dropdown",
                 links: [
                     {
-                        id:"authLogin",
-                        label:  tm("authLogin"),
+                        id:"settings",
+                        label:  "Setting",
                         icon: null,
-                        link: "login-app",
+                        link: "settings",
                         type: "route"
                     },
                     {
-                        id: "authRegister",
-                        label:  tm("authRegister"),
+                        id:"user",
+                        label:  "User",
                         icon: null,
-                        link: "register-app",
+                        link: "settings-user.index",
                         type: "route"
                     },
-                    {
-                        id: "authForgotPassword",
-                        label:  tm("authForgotPassword"),
-                        icon: null,
-                        link: "forgot-password-app",
-                        type: "route"
-                    },
-                    {
-                        id: "authLockScreen",
-                        label:  tm("authLockScreen"),
-                        icon: null,
-                        link: "lock-app",
-                        type: "route"
-                    },
-                    {
-                        id: "authProfile",
-                        label:  tm("authProfile"),
-                        icon: null,
-                        link: "profile.show",
-                        type: "route"
-                    }
+                    // {
+                    //     id:"authLogin",
+                    //     label:  tm("authLogin"),
+                    //     icon: null,
+                    //     link: "login-app",
+                    //     type: "route"
+                    // },
+                    // {
+                    //     id: "authRegister",
+                    //     label:  tm("authRegister"),
+                    //     icon: null,
+                    //     link: "register-app",
+                    //     type: "route"
+                    // },
+                    // {
+                    //     id: "authForgotPassword",
+                    //     label:  tm("authForgotPassword"),
+                    //     icon: null,
+                    //     link: "forgot-password-app",
+                    //     type: "route"
+                    // },
+                    // {
+                    //     id: "authLockScreen",
+                    //     label:  tm("authLockScreen"),
+                    //     icon: null,
+                    //     link: "lock-app",
+                    //     type: "route"
+                    // },
+                    // {
+                    //     id: "authProfile",
+                    //     label:  tm("authProfile"),
+                    //     icon: null,
+                    //     link: "profile.show",
+                    //     type: "route"
+                    // }
                 ]
             },
             {
@@ -285,8 +290,8 @@ export default function ({roles,permissions}) {
                 ]
             },
             {
-                id: "externalSources",
-                label:  tm("externalSources"),
+                id: "media-manager",
+                label:  tm("mediaManager"),
                 icon: "code",
                 type: "dropdown",
                 links: [

@@ -42,7 +42,8 @@ const mainMenuLangEn = {
     externalInertiaDocument: "Inertiajs Document",
     externalLaravelDocument: "Laravel Document",
     footerHelp: "Help",
-    footerSettings: "Settings"
+    footerSettings: "Settings",
+    mediaManager : "Media Manager"
 };
 
 export default mainMenuLangEn;

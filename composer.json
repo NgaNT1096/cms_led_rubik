@@ -1,7 +1,7 @@
 {
     "name": "sinan-aydogan/tailadmin-laravel",
     "type": "project",
-    "description": "TailAdmin is a dashboard theme / UI starter kit with Laravel, TailwindCSS, Inertia and VueJS",
+    "description": "CMS LED Rubik",
     "keywords": ["laravel", "admin", "dashboard", "starter kit", "component", "monolit", "admin panel", "tailadmin", "framework"],
     "license": "MIT",
     "require": {
